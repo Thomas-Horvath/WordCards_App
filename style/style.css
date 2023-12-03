@@ -1,0 +1,140 @@
+:root {
+    --main-color: #1b7ce4;
+
+
+    /* background */
+    --bg: #f1f1f1;
+    --text-light: #fff;
+    --card-bg: #878686;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background: var(--main-color);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #000000bb;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
+
+body {
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    height: 10vh;
+    background: var(--main-color);
+    box-shadow: -3px 3px 10px #000000bb;
+}
+
+.header_wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+
+}
+
+.header_logo {
+    width: 50px;
+    height: 50px;
+    background-color: #878686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    border-radius: 50%;
+}
+
+.header_title {
+    color: var(--text-light);
+    font-size: 2rem;
+}
+
+
+
+.header_menu-btn a {
+    color: var(--text-light);
+    background-color: #878686;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.card_section {
+
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 500px;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 60vh;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: var(--card-bg);
+    box-shadow: 3px 3px 10px #000000bb;
+}
+
+.button {
+    /* background-color: yellowgreen; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_group {
+    /*  background-color: aqua; */
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
